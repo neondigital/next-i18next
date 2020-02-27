@@ -70,7 +70,7 @@ export default function (nexti18next) {
           If a language subpath is required and
           not present, prepend correct subpath
         */
-        return redirectWithoutCache(res, addSubpath(req.url, currentLngSubpath))
+        return redirectWithoutCache(res, addSubpath(req.url, 'en-gb'))
 
       }
 
