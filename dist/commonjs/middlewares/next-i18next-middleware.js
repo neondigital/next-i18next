@@ -96,7 +96,7 @@ function _default(nexti18next) {
           If a language subpath is required and
           not present, prepend correct subpath
         */
-        return (0, _utils.redirectWithoutCache)(res, (0, _utils.addSubpath)(req.url, currentLngSubpath));
+        return (0, _utils.redirectWithoutCache)(res, (0, _utils.addSubpath)(req.url, 'en-gb'));
       }
       /*
         If a locale subpath is present in the URL,
